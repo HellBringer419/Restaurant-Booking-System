@@ -19,7 +19,10 @@
 			<div class="form">
 				<p> Welcome </p>
 			</div>
-			<div class="form"> Demo Representation for possibiliti of two forms ina  a single padge. </div>
+			<div class="form"> 
+				<p> Demo Representation for possibility of two forms in a single page; in cases you need it. </p>
+				<p> please add images and/or more text as per your requirement here.
+			</div>
 		</div>
 	</div>
 </body>
