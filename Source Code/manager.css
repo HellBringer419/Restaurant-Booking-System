@@ -1,0 +1,173 @@
+html, body, div, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.masterContainer {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	grid-template-rows: auto;
+}
+
+@media (max-width: 768px) {
+	.masterContainer {
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: 1fr 2fr;
+	}
+}
+
+.sideNavBar {
+	background-color: #34495E;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: repeat(6, 1fr);
+}
+
+.menu1 {
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	font-family: serif;
+	color: #ECECEC;
+}
+
+.menu2 {
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	font-family: serif;
+	color: #ECECEC;
+}
+
+.menu3 {
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	font-family: serif;
+	color: #ECECEC;
+}
+
+.menu4 {
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	font-family: serif;
+	color: #ECECEC;
+}
+
+
+.menu5 {
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	font-family: serif;
+	color: #ECECEC;
+}
+
+.menu6 {
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	font-family: serif;
+	color: #ECECEC;
+}
+
+.mainArea {
+	background-color: #ECECEC;
+}
+
+.form {
+	margin: 10%;
+	padding: 25%;
+	background-color: #CCCCCC;
+	color: black;
+	z-index: 1;
+	filter: drop-shadow( 0 0 15px #333);
+}
+
+.tables {
+	margin: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 25%;
+	padding-bottom: 25%;
+	z-index: 1;
+	filter: drop-shadow(0 0 15px #333);
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+}
+
+.table1 {
+	background-color: #CCCCCC;
+	color: black;
+	 
+	padding: 25%;
+}
+
+.table2 {
+	background-color: #DDDDDD;
+	color: black;
+	 
+	padding: 25%;
+}
+
+.table3 {
+	background-color: #CCCCCC;
+	color: black;
+	 
+	padding: 25%;
+}
+
+.table4 {
+	background-color: #DDDDDD;
+	color: black;
+	 
+	padding: 25%;
+}
+
+.table5 {
+	background-color: #CCCCCC;
+	color: black;
+	 
+	padding: 25%;
+}
+
+.table6 {
+	background-color: #DDDDDD;
+	color: black;
+	 
+	padding: 25%;
+}
+
+.table7 {
+	background-color: #CCCCCC;
+	color: black;
+	 
+	padding: 25%;
+}
+
+.table8 {
+	background-color: #DDDDDD;
+	color: black;
+	 
+	padding: 25%;
+}
+
+.table9 {
+	background-color: #CCCCCC;
+	color: black;
+	 
+	padding: 25%;
+}
