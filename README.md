@@ -10,4 +10,4 @@ A simple system to book tables in a restaurant.
 </ul>
 
 <p> username: manager <br/> password : manager </p>
-<span align="justify"> This was a project for Odisha Skill 2018. I enjoyed completing the project and bagged the bronze medal (Hurray!!). Feel free to use these codes. Please do mention credits. </span>
+<div align="justify"> This was a project for Odisha Skill 2018. I enjoyed completing the project and bagged the bronze medal (Hurray!!). Feel free to use these codes. Please do mention credits. </div>
